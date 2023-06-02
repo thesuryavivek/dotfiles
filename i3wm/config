@@ -212,8 +212,8 @@ exec_always xrandr --output eDP-1 --primary --mode 1920x1080 --pos 1366x0 --rota
 
 # Function keys binding snippet
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec brightnessctl s 10%+ # increase screen brightness
+bindsym XF86MonBrightnessDown exec brightnessctl s 10%- # decrease screen brightness
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
