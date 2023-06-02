@@ -222,3 +222,6 @@ exec_always xinput set-prop "SYNA3602:00 0911:5288 Touchpad" "libinput Tapping E
 
 # Numlock on by default
 exec_always numlockx on
+
+# Sxhkd - keyboard shortcuts
+exec_always sxhkd
