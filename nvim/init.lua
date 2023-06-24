@@ -1,3 +1,3 @@
-require('core.keymaps')
-require('core.plugins')
-require('core.plugin_config')
+require("thesuryavivek.plugin-setup")
+require("thesuryavivek.plugins")
+require("thesuryavivek.core")
