@@ -1,5 +1,14 @@
 vim.keymap.set("i", "jk", "<ESC>")
 
+-- half page scroll and center it
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+
+vim.keymap.set("n", "x", '"_x')
+
+-- inc / dec
+vim.keymap.set("n", "+", "<C-a>")
+vim.keymap.set("n", "-", "<C-x>")
 -- nvim tree
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 

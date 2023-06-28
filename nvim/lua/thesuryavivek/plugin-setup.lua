@@ -23,6 +23,9 @@ require("lazy").setup({
 	-- treesitter
 	{ "nvim-treesitter/nvim-treesitter" },
 
+	-- bracket pair colors -- treesitter plugin
+	{ "HiPhish/nvim-ts-rainbow2" },
+
 	-- auto closing brackets
 	{ "windwp/nvim-autopairs" },
 	{ "windwp/nvim-ts-autotag" },
@@ -107,7 +110,7 @@ require("lazy").setup({
 				desc = "Flash",
 			},
 			{
-				"S",
+				"<leader>s",
 				mode = { "n", "o", "x" },
 				function()
 					require("flash").treesitter()
