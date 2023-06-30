@@ -48,7 +48,7 @@ require("lazy").setup({
 	{ "rafamadriz/friendly-snippets" },
 
 	-- LSP
-	{ "williamboman/mason.nvim" },
+	{ "williamboman/mason.nvim", build = ":MasonUpdate" },
 	{ "williamboman/mason-lspconfig.nvim" },
 
 	{ "neovim/nvim-lspconfig" },
